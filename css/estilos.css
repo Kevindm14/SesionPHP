@@ -108,6 +108,21 @@ a:hover {
     -border-radius: 0 3px 3px 0;
 }
 
+.form .error {
+    background-color: #D27D71;
+    padding: 10px;
+}
+
+.form .error ul {
+    padding: 0 15px;
+}
+
+.form .error ul li {
+    margin-bottom: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
 .form .submit-btn {
     padding: 15px;
     text-align: center;
