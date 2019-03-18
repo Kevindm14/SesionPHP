@@ -13,7 +13,7 @@
         <div class="item">
             <h1 class="titulo">Sign up</h1>
             <hr class="border">
-            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="form" name="register">
+            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="form" name="login">
                 <div class="form-group">
                     <i class="icono izquierda fa fa-user"></i><input type="text" class="usuario" name="name" placeholder="Write you name">
                 </div>
@@ -24,7 +24,7 @@
             </form>
             <p class="text-login">
                 You are not yet registered?
-                <a href="registro.php">Sign in</a>
+                <a href="register.php">Sign in</a>
             </p>
         </div>
     </div>
