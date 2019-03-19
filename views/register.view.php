@@ -24,7 +24,6 @@
                     <i class="icono izquierda fa fa-lock"></i><input type="password" class="password" name="password2" placeholder="Repeat you password">
                     <i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
                 </div>
-                
                 <?php if (!empty($errors)) { ?>
                     <div class="error">
                         <ul>

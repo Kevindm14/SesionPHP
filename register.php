@@ -14,11 +14,7 @@
         if (empty($name) or empty($password) or empty($password2)) {
             $errors .= "<li>Fill in the fields correctly</li>";
         } else {
-            try {
-                $conection = new PDO('mysql:host=localhost;dbname=sesion;', 'root', 'localhost');
-            } catch (PDOException $e) {
-                echo "Error" . $e->getMessage();
-            }
+            require 'db.php';
 
             // Validation Username 
             $statement = $conection->prepare('SELECT * FROM users WHERE name = :name LIMIT 1');
